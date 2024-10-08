@@ -36,8 +36,9 @@ Register Number:212223240158
 ```python
 from numpy.lib.function_base import select
 from collections import defaultdict
-def mc_control(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
-               init_epsilon=1.0, min_epsilon=0.1, epsilon_decay_ratio=0.9,
+def mc_control(env,
+              gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
+              init_epsilon=1.0, min_epsilon=0.1, epsilon_decay_ratio=0.9,
                n_episodes=3000, max_steps=200, first_visit=True):
 
     nS, nA = env.observation_space.n, env.action_space.n
