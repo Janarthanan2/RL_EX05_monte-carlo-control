@@ -70,7 +70,9 @@ def mc_control(env,
 ```
 
 ## OUTPUT:
+<img src="https://github.com/user-attachments/assets/392ad163-54e1-49c7-9919-4564a463506e" width=50%>
 
+<img src="https://github.com/user-attachments/assets/3f39c7ee-8ef6-4836-bc8d-dc31a14ba4ce" width=50%>
 
 
 
