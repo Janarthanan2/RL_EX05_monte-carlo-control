@@ -29,10 +29,7 @@ Repeat steps 2-4 for a specified number of episodes or until convergence.
 Return the optimal Q-values, state-value function, and policy.
 
 ## MONTE CARLO CONTROL FUNCTION
-```
-Developed By:SREEVALSAN V
-Register Number:212223240158
-```
+
 ```python
 from numpy.lib.function_base import select
 from collections import defaultdict
